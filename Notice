@@ -1,0 +1,90 @@
++ Rake:
+rake about                              # List versions of all Rails frameworks and the environment
+rake active_storage:install             # Copy over the migration needed to the application
+rake app:template                       # Applies the template supplied by LOCATION=(/path/to/template) or URL
+rake app:update                         # Update configs and some other initially generated files (or use just u...
+rake assets:clean[keep]                 # Remove old compiled assets
+rake assets:clobber                     # Remove compiled assets
+rake assets:environment                 # Load asset compile environment
+rake assets:precompile                  # Compile all the assets named in config.assets.precompile
+rake cache_digests:dependencies         # Lookup first-level dependencies for TEMPLATE (like messages/show or co...
+rake cache_digests:nested_dependencies  # Lookup nested dependencies for TEMPLATE (like messages/show or comment...
+rake db:create                          # Creates the database from DATABASE_URL or config/database.yml for the ...
+rake db:drop                            # Drops the database from DATABASE_URL or config/database.yml for the cu...
+rake db:environment:set                 # Set the environment value for the database
+rake db:fixtures:load                   # Loads fixtures into the current environment's database
+rake db:migrate                         # Migrate the database (options: VERSION=x, VERBOSE=false, SCOPE=blog)
+rake db:migrate:status                  # Display status of migrations
+rake db:rollback                        # Rolls the schema back to the previous version (specify steps w/ STEP=n)
+rake db:schema:cache:clear              # Clears a db/schema_cache.yml file
+rake db:schema:cache:dump               # Creates a db/schema_cache.yml file
+rake db:schema:dump                     # Creates a db/schema.rb file that is portable against any DB supported ...
+rake db:schema:load                     # Loads a schema.rb file into the database
+rake db:seed                            # Loads the seed data from db/seeds.rb
+rake db:setup                           # Creates the database, loads the schema, and initializes with the seed ...
+rake db:structure:dump                  # Dumps the database structure to db/structure.sql
+rake db:structure:load                  # Recreates the databases from the structure.sql file
+rake db:version                         # Retrieves the current schema version number
+rake dev:cache                          # Toggle development mode caching on/off
+rake initializers                       # Print out all defined initializers in the order they are invoked by Rails
+rake log:clear                          # Truncates all/specified *.log files in log/ to zero bytes (specify whi...
+rake middleware                         # Prints out your Rack middleware stack
+rake notes                              # Enumerate all annotations (use notes:optimize, :fixme, :todo for focus)
+rake notes:custom                       # Enumerate a custom annotation, specify with ANNOTATION=CUSTOM
+rake restart                            # Restart app by touching tmp/restart.txt
+rake routes                             # Print out all defined routes in match order, with names
+rake secret                             # Generate a cryptographically secure secret key (this is typically used...
+rake send_digest_email                  # send digest email
+rake stats                              # Report code statistics (KLOCs, etc) from the application or engine
+rake test                               # Runs all tests in test folder except system ones
+rake test:db                            # Run tests quickly, but also reset db
+rake test:system                        # Run system tests only
+rake time:zones[country_or_offset]      # List all time zones, list by two-letter country code (`rails time:zone...
+rake tmp:clear                          # Clear cache, socket and screenshot files from tmp/ (narrow w/ tmp:cach...
+rake tmp:create                         # Creates tmp directories for cache, sockets, and pids
+rake yarn:install                       # Install all JavaScript dependencies as specified via Yarn
++ Rails
+rails about                              # List versions of all Rails frameworks and the environment
+rails active_storage:install             # Copy over the migration needed to the application
+rails app:template                       # Applies the template supplied by LOCATION=(/path/to/template) or URL
+rails app:update                         # Update configs and some other initially generated files (or use just ...
+rails assets:clean[keep]                 # Remove old compiled assets
+rails assets:clobber                     # Remove compiled assets
+rails assets:environment                 # Load asset compile environment
+rails assets:precompile                  # Compile all the assets named in config.assets.precompile
+rails cache_digests:dependencies         # Lookup first-level dependencies for TEMPLATE (like messages/show or c...
+rails cache_digests:nested_dependencies  # Lookup nested dependencies for TEMPLATE (like messages/show or commen...
+rails db:create                          # Creates the database from DATABASE_URL or config/database.yml for the...
+rails db:drop                            # Drops the database from DATABASE_URL or config/database.yml for the c...
+rails db:environment:set                 # Set the environment value for the database
+rails db:fixtures:load                   # Loads fixtures into the current environment's database
+rails db:migrate                         # Migrate the database (options: VERSION=x, VERBOSE=false, SCOPE=blog)
+rails db:migrate:status                  # Display status of migrations
+rails db:rollback                        # Rolls the schema back to the previous version (specify steps w/ STEP=n)
+rails db:schema:cache:clear              # Clears a db/schema_cache.yml file
+rails db:schema:cache:dump               # Creates a db/schema_cache.yml file
+rails db:schema:dump                     # Creates a db/schema.rb file that is portable against any DB supported...
+rails db:schema:load                     # Loads a schema.rb file into the database
+rails db:seed                            # Loads the seed data from db/seeds.rb
+rails db:setup                           # Creates the database, loads the schema, and initializes with the seed...
+rails db:structure:dump                  # Dumps the database structure to db/structure.sql
+rails db:structure:load                  # Recreates the databases from the structure.sql file
+rails db:version                         # Retrieves the current schema version number
+rails dev:cache                          # Toggle development mode caching on/off
+rails initializers                       # Print out all defined initializers in the order they are invoked by R...
+rails log:clear                          # Truncates all/specified *.log files in log/ to zero bytes (specify wh...
+rails middleware                         # Prints out your Rack middleware stack
+rails notes                              # Enumerate all annotations (use notes:optimize, :fixme, :todo for focus)
+rails notes:custom                       # Enumerate a custom annotation, specify with ANNOTATION=CUSTOM
+rails restart                            # Restart app by touching tmp/restart.txt
+rails routes                             # Print out all defined routes in match order, with names
+rails secret                             # Generate a cryptographically secure secret key (this is typically use...
+rails send_digest_email                  # send digest email
+rails stats                              # Report code statistics (KLOCs, etc) from the application or engine
+rails test                               # Runs all tests in test folder except system ones
+rails test:db                            # Run tests quickly, but also reset db
+rails test:system                        # Run system tests only
+rails time:zones[country_or_offset]      # List all time zones, list by two-letter country code (`rails time:zon...
+rails tmp:clear                          # Clear cache, socket and screenshot files from tmp/ (narrow w/ tmp:cac...
+rails tmp:create                         # Creates tmp directories for cache, sockets, and pids
+rails yarn:install                       # Install all JavaScript dependencies as specified via Yarn
